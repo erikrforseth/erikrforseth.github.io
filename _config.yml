@@ -1,2 +1,4 @@
 name: Erik R. Forseth
 markdown: kramdown
+gems:
+  - jekyll-sitemap
