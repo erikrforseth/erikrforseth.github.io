@@ -13,85 +13,9 @@ title: Erik Forseth
   
   <p>For the past year or so, a hobby of mine has been writing code to predict the outcomes of college basketball games; this evolved partly as an exercise to teach myself some Python and machine learning techniques, and partly as a new way to follow my favorite sport.</p>
 
-  <p>After getting up and running last year, I began submitting picks to the <a href="http://www.thepredictiontracker.com/basketball.php">Prediction Tracker</a> under the moniker "ERFunctionRatings", where I did pretty well! I only became aware of the Tracker about mid-way through the season, and so I began submitting picks on Jan. 13, 2015. For the period of games starting Jan. 13 and going through the end of the 2014-2015 regular season, here's a comparison of how the various predictors (including my model) performed:</p>
-  <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-baqh">Predictor</th>
-    <th class="tg-baqh">Mean Square Error (MSE)</th>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'linedok'</td>
-    <td class="tg-baqh">105.552</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">Opening Line</td>
-    <td class="tg-baqh">105.969</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'linedonc'</td>
-    <td class="tg-baqh">106.663</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">Average of Predictors</td>
-    <td class="tg-baqh">106.668</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'lineashby'</td>
-    <td class="tg-baqh">107.480</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'lineprophet'</td>
-    <td class="tg-baqh">108.285</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'linesagp'</td>
-    <td class="tg-baqh">108.720</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'linesag'</td>
-    <td class="tg-baqh">109.359</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'linesaggm'</td>
-    <td class="tg-baqh">109.504</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'linepugh'</td>
-    <td class="tg-baqh">109.999</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'linemoore'</td>
-    <td class="tg-baqh">110.854</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">'lineer'</td>
-    <td class="tg-amwm">110.940</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'linefox'</td>
-    <td class="tg-baqh">110.964</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'line7ot'</td>
-    <td class="tg-baqh">115.626</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">'linesage'</td>
-    <td class="tg-baqh">117.096</td>
-  </tr>
-</table>
-  <p>Here, a lower MSE is better; it's an indication of the difference between the prediction and the actual result.</p>
-  <p>Now, given that this seems to be sort of an elite group, I was pretty happy -- and keep in mind that the an MSE of 110 and an MSE of 105 are only different by about 0.24 in RMSE (root mean square error)!</p>
-  <p>During the offseason, I made improvements to my model that brought this measure down to about ~107-108 on this set of games. What I never managed to do, however, was find the time to tackle very-early-season predictions, for which things are pretty dicey (if only I could focus on this sort of thing full-time...). Not only have you not got much season-to-date data to go on, all the non-conference blowouts really inject some noise. So, on Dec. 1 I began posting picks once again, here and on <a href="http://www.thepredictiontracker.com/predbb.html">the Tracker</a>; unfortunately, things got off to a rocky start! I have some ideas about why this might be, so look for some (hopefully) improved performance shortly. Besides, games will settle down soon, and I would expect some regression toward the mean regardless. </p>
+  <p>After getting up and running last year, I began submitting daily picks to the <a href="http://www.thepredictiontracker.com/basketball.php">Prediction Tracker</a> under the moniker "ERFunctionRatings," which I've continued to do for this 2015-2016 season. The model's performance has taken a hit this year, but the performance of the other predictors has suffered as well. This may or may not be related to <a href="http://www.ncaa.com/news/basketball-men/article/2015-06-08/ncaa-changes-shot-clock-30-seconds-makes-other-changes-game">rule changes</a>, or it may just be a generally "noisy" season this year. Regardless, I'm often tinkering with this project in my ever-vanishing free time, and have some potential improvements coming down the pike for next season.</p>
   <hr>
-  <p> For some information about my model, see <a href="/basketball/model">here</a>. </p>
+  <p> For some information about the model, see <a href="/basketball/model">here</a>. </p>
   <p> For some notes about adjusting for strength of schedule in college basketball, see <a href="/basketball/rpi">here</a>.</p>
   <p>Finally, if you're at all interested in this sort of thing, I don't think there's a better resource out there than Scott Turner's <a href = "http://netprophetblog.blogspot.com/">Net Prophet</a> blog.</p>
 </div><!-- /.blurb -->
