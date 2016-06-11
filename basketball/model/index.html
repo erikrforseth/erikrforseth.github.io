@@ -5,6 +5,6 @@ title: Erik Forseth
 <div class="blurb">
   <h2>About the model</h2>
   <p>
-    My model is a linear regression formula trained on 25,000+ regular season games from 2010-2016, which takes as input a number of season-to-date team statistics, some of which are raw (e.g. average margin of victory) and some of which are adjusted according to teams' opponents' statistics. For these adjusted measures, I presently use something of a generalization of Andrew Dolphin's "infinite" RPI routine, described <a href="http://netprophetblog.blogspot.com/2011/04/infinitely-deep-rpi.html">here</a> and <a href="/basketball/RPInotes.pdf">here</a>. For most of the analysis that goes into this, I use <a href="http://pandas.pydata.org/">pandas</a>, <a href="http://statsmodels.sourceforge.net/">statsmodels</a>, and <a href="http://scikit-learn.org/stable/">scikit-learn</a>, though I wrote my own routines for e.g. feature selection. 
+    I use a linear regression system trained on 25,000+ regular season games from 2010-2016, which takes as input a number of season-to-date team statistics, some of which are raw (e.g. average margin of victory) and most of which are adjusted according to teams' opponents' statistics. For these adjusted measures, I use several independent routines. Some of these are original, and some of these are generalizations of preexisting methods (e.g. RPI-like ratings). 
   </p>
 </div><!-- /.blurb -->
