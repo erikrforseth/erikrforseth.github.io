@@ -11,7 +11,7 @@ Results shown are as of 2018-12-10 for a set of 1338 games:
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
-      <th>Mean Squared Error</th>
+      <th>Mean Squared Error (MSE)</th>
       <th>Model</th>
     </tr>
   </thead>
@@ -232,7 +232,7 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
   </thead>
   <tbody>
     <tr>
-      <td>0.190</td>
+      <td>0.307</td>
       <td>ESPN BPI</td>
     </tr>
     <tr>
@@ -244,23 +244,23 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
       <td>Sagarin Rating</td>
     </tr>
     <tr>
-      <td>0.000</td>
+      <td>0.010</td>
       <td>Sonny Moore</td>
     </tr>
     <tr>
-      <td>0.088</td>
+      <td>0.066</td>
       <td>TeamRankings</td>
     </tr>
     <tr>
-      <td>0.301</td>
+      <td>0.443</td>
       <td>Erik Forseth</td>
     </tr>
     <tr>
-      <td>0.044</td>
+      <td>0.119</td>
       <td>Dokter Entropy</td>
     </tr>
     <tr>
-      <td>0.046</td>
+      <td>0.061</td>
       <td>StatFox</td>
     </tr>
     <tr>
@@ -268,7 +268,7 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
       <td>Sagarin Recent</td>
     </tr>
     <tr>
-      <td>0.021</td>
+      <td>0.041</td>
       <td>Sagarin Predictor</td>
     </tr>
     <tr>
@@ -284,4 +284,4 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
       <td>ComPughter Ratings</td>
     </tr>
   </tbody>
-</table>
+</table> The MSE of this hypothetical predictor would be 127.488. Note that this is even unrealistically optimistic, since we computed both fit the model and computed the MSE using the entire dataset.
