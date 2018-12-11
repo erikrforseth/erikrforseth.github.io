@@ -6,9 +6,7 @@ A large number of people have developed models for predicting the outcomes of co
 <br><br>
 Throughout the 2018-19 season, I'll try to update this page with some further analysis of the Tracker data. For what follows, I chose a subset of models which have made picks since the very beginning of the season, and I threw out games for which any of those models did not make a pick. Morever, in a (somewhat lazy) attempt to address misprinted lines, I filtered out any games for which the opening and closing lines differed by more than 5 points (it's very rare that this really happens). 
 <br><br>
-The first table shows the mean squared error of each model when predicting the spread.
-<br>
-<table border="1" class="dataframe">
+Results shown are as of 2018-12-10 20:52:02.001816 after 1338 games have been played:<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
       <th>Mean Squared Error</th>
@@ -74,6 +72,77 @@ The first table shows the mean squared error of each model when predicting the s
     </tr>
     <tr>
       <td>162.012</td>
+      <td>ComPughter Ratings</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Accuracy</th>
+      <th>Model</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.778</td>
+      <td>Line</td>
+    </tr>
+    <tr>
+      <td>0.776</td>
+      <td>Opening Line</td>
+    </tr>
+    <tr>
+      <td>0.771</td>
+      <td>Erik Forseth</td>
+    </tr>
+    <tr>
+      <td>0.766</td>
+      <td>ESPN BPI</td>
+    </tr>
+    <tr>
+      <td>0.766</td>
+      <td>TeamRankings</td>
+    </tr>
+    <tr>
+      <td>0.764</td>
+      <td>Sagarin Predictor</td>
+    </tr>
+    <tr>
+      <td>0.762</td>
+      <td>Sagarin Golden Mean</td>
+    </tr>
+    <tr>
+      <td>0.757</td>
+      <td>Sagarin Rating</td>
+    </tr>
+    <tr>
+      <td>0.756</td>
+      <td>Sonny Moore</td>
+    </tr>
+    <tr>
+      <td>0.756</td>
+      <td>DRatings.com</td>
+    </tr>
+    <tr>
+      <td>0.754</td>
+      <td>Dokter Entropy</td>
+    </tr>
+    <tr>
+      <td>0.751</td>
+      <td>Massey</td>
+    </tr>
+    <tr>
+      <td>0.750</td>
+      <td>StatFox</td>
+    </tr>
+    <tr>
+      <td>0.738</td>
+      <td>Sagarin Recent</td>
+    </tr>
+    <tr>
+      <td>0.736</td>
       <td>ComPughter Ratings</td>
     </tr>
   </tbody>
