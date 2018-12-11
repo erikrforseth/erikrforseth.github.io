@@ -6,7 +6,9 @@ A large number of people have developed models for predicting the outcomes of co
 <br><br>
 Throughout the 2018-19 season, I'll try to update this page with some further analysis of the Tracker data. For what follows, I chose a subset of models which have made picks since the very beginning of the season, and I threw out games for which any of those models did not make a pick. Morever, in a (somewhat lazy) attempt to address misprinted lines, I filtered out any games for which the opening and closing lines differed by more than 5 points (it's very rare that this really happens). 
 <br><br>
-Results shown are as of 2018-12-10 20:52:02.001816 after 1338 games have been played:<table border="1" class="dataframe">
+Results shown are as of 2018-12-10 after 1338 games have been played:
+<br>
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
       <th>Mean Squared Error</th>
@@ -76,7 +78,7 @@ Results shown are as of 2018-12-10 20:52:02.001816 after 1338 games have been pl
     </tr>
   </tbody>
 </table>
-<br><br>
+<br>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
@@ -143,6 +145,75 @@ Results shown are as of 2018-12-10 20:52:02.001816 after 1338 games have been pl
     </tr>
     <tr>
       <td>0.736</td>
+      <td>ComPughter Ratings</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+Clearly the line is the best statistical predictor of the outcome. Nevertheless, we can ask how each model would have done against the spread, shown below: 
+<br>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Against the Spread</th>
+      <th>Model</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.518</td>
+      <td>Sagarin Predictor</td>
+    </tr>
+    <tr>
+      <td>0.517</td>
+      <td>Sagarin Golden Mean</td>
+    </tr>
+    <tr>
+      <td>0.513</td>
+      <td>Opening Line</td>
+    </tr>
+    <tr>
+      <td>0.512</td>
+      <td>Sonny Moore</td>
+    </tr>
+    <tr>
+      <td>0.511</td>
+      <td>Sagarin Rating</td>
+    </tr>
+    <tr>
+      <td>0.509</td>
+      <td>ESPN BPI</td>
+    </tr>
+    <tr>
+      <td>0.509</td>
+      <td>Erik Forseth</td>
+    </tr>
+    <tr>
+      <td>0.509</td>
+      <td>DRatings.com</td>
+    </tr>
+    <tr>
+      <td>0.506</td>
+      <td>StatFox</td>
+    </tr>
+    <tr>
+      <td>0.505</td>
+      <td>TeamRankings</td>
+    </tr>
+    <tr>
+      <td>0.503</td>
+      <td>Massey</td>
+    </tr>
+    <tr>
+      <td>0.501</td>
+      <td>Dokter Entropy</td>
+    </tr>
+    <tr>
+      <td>0.499</td>
+      <td>Sagarin Recent</td>
+    </tr>
+    <tr>
+      <td>0.495</td>
       <td>ComPughter Ratings</td>
     </tr>
   </tbody>
