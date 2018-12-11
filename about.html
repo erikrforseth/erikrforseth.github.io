@@ -77,7 +77,9 @@ Results shown are as of 2018-12-10 for a set of 1338 games:
       <td>ComPughter Ratings</td>
     </tr>
   </tbody>
-</table> <table border="1" class="dataframe">
+</table>
+<br>
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
       <th>Accuracy</th>
@@ -153,7 +155,7 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
-      <th>Against the Spread</th>
+      <th>% Against the Spread</th>
       <th>Model</th>
     </tr>
   </thead>
@@ -212,6 +214,73 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
     </tr>
     <tr>
       <td>0.495</td>
+      <td>ComPughter Ratings</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+ Given how sharp the line is, I personally find it a little hard to believe that any apparent "edge" seen here isn't just luck (sampling error). 
+<br><br>
+ Finally, let's regress the observed margins of victory onto the predictions of each model, but constrain the regression to have nonnegative coefficients. Subject to the nonnegativity constraint, this would give the optimal (backward-looking) linear combination of predictors. We find: 
+<br>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Coefficient</th>
+      <th>Model</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.190</td>
+      <td>ESPN BPI</td>
+    </tr>
+    <tr>
+      <td>0.000</td>
+      <td>Massey</td>
+    </tr>
+    <tr>
+      <td>0.000</td>
+      <td>Sagarin Rating</td>
+    </tr>
+    <tr>
+      <td>0.000</td>
+      <td>Sonny Moore</td>
+    </tr>
+    <tr>
+      <td>0.088</td>
+      <td>TeamRankings</td>
+    </tr>
+    <tr>
+      <td>0.301</td>
+      <td>Erik Forseth</td>
+    </tr>
+    <tr>
+      <td>0.044</td>
+      <td>Dokter Entropy</td>
+    </tr>
+    <tr>
+      <td>0.046</td>
+      <td>StatFox</td>
+    </tr>
+    <tr>
+      <td>0.000</td>
+      <td>Sagarin Recent</td>
+    </tr>
+    <tr>
+      <td>0.021</td>
+      <td>Sagarin Predictor</td>
+    </tr>
+    <tr>
+      <td>0.000</td>
+      <td>Sagarin Golden Mean</td>
+    </tr>
+    <tr>
+      <td>0.000</td>
+      <td>DRatings.com</td>
+    </tr>
+    <tr>
+      <td>0.000</td>
       <td>ComPughter Ratings</td>
     </tr>
   </tbody>
