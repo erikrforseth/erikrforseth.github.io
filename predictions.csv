@@ -27,11 +27,11 @@ Fresno State,Tennessee-Martin,19.21
 Georgetown,Arkansas-Little Rock,14.04
 Georgia Tech,Georgia,3.01
 Grand Canyon,Mississippi Valley State,24.41
-Hampton,Howard,6.39
 Harvard,George Washington,12.69
 Hawaii,Nevada-Las Vegas,0.19
 High Point,Richmond,-4.07
 Holy Cross,Siena,10.47
+Howard,Hampton,-0.37
 Illinois,Missouri,-0.38
 Indiana,Jacksonville,28.02
 Iowa,Savannah State,33.47
@@ -41,7 +41,6 @@ La Salle,Towson,1.98
 Lehigh,Saint Francis (PA),7.37
 Long Beach State,Colorado State,3.55
 Louisiana Tech,Texas A&M-Corpus Christi,13.4
-Loyola (IL),Saint Joseph's,0.39
 Maine,Central Connecticut State,-1.38
 Marist,Brown,0.1
 Maryland,Seton Hall,9.01
@@ -64,6 +63,7 @@ Old Dominion,Morgan State,20.65
 Oral Roberts,Tulsa,-8.65
 Quinnipiac,Stony Brook,-0.68
 Rutgers,Columbia,15.07
+Saint Joseph's,Loyola (IL),1.48
 Samford,North Carolina-Greensboro,-3.1
 San Diego,Washington State,6.35
 San Diego State,Brigham Young,3.71
