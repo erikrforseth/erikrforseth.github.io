@@ -1,139 +1,19 @@
 Home,Away,Home MOV
-Akron,Western Michigan,9.93
-Alabama,Kentucky,-1.8
-Alabama A&M,Jackson State,0.05
-Alabama State,Grambling,-2.16
-Alabama-Birmingham,Florida International,5.14
-Albany (NY),Vermont,-5.75
-Alcorn State,Texas Southern,-8.46
-Arizona,Utah,9.2
-Arizona State,Colorado,5.68
-Arkansas-Pine Bluff,Mississippi Valley State,9.33
-Army,Lafayette,5.46
-Austin Peay,Morehead State,11.28
-Belmont,Tennessee Tech,22.67
-Binghamton,New Hampshire,4.69
-Boise State,San Diego State,2.01
-Boston University,Bucknell,-3.69
-Bryant,Long Island University,-3.18
-Butler,Creighton,2.84
-Cal State Bakersfield,Utah Valley,-1.61
-Cal State Northridge,Yale,-10.59
-California Baptist,Texas-Rio Grande Valley,6.16
-Campbell,Gardner-Webb,-1.15
-Charleston Southern,High Point,3.87
-Charlotte,Marshall,-7.73
-Connecticut,Central Florida,-0.12
-Coppin State,Savannah State,4.03
-Davidson,Duquesne,11.04
-Delaware,Elon,7.58
-Denver,North Dakota,1.77
-Detroit Mercy,Northern Kentucky,-5.93
-Drake,Loyola (IL),-2.81
-Drexel,William & Mary,-0.08
-Duke,Clemson,18.52
-East Carolina,Cincinnati,-17.85
-East Tennessee State,Chattanooga,15.61
-Eastern Illinois,Southern Illinois-Edwardsville,4.04
-Florida,South Carolina,14.99
-Florida Gulf Coast,Liberty,-5.16
-Fordham,Virginia Commonwealth,-6.43
-Fresno State,Colorado State,15.96
-Furman,Citadel,13.51
-Georgetown,St. John's (NY),-0.35
-Georgia Tech,Wake Forest,7.35
-Gonzaga,Santa Clara,28.15
-Grand Canyon,Seattle,5.37
-Green Bay,Cleveland State,8.15
-Hofstra,Northeastern,5.85
-Howard,Florida A&M,5.58
-Idaho State,Northern Arizona,7.76
-Illinois State,Evansville,4.14
-Incarnate Word,Nicholls State,-4.85
-Indiana State,Bradley,5.46
-Iona,Fairfield,3.83
-Iowa State,Kansas,0.51
-Jacksonville,Lipscomb,-13.8
-James Madison,College of Charleston,-7.75
-Kent State,Bowling Green State,6.18
-Lamar,Texas A&M-Corpus Christi,3.46
-Louisiana-Monroe,Arkansas State,8.47
-Loyola Marymount,Portland,12.5
-Manhattan,Niagara,-1.84
-Maryland-Baltimore County,Maine,10.94
-Massachusetts,La Salle,7.83
-Massachusetts-Lowell,Stony Brook,-1.4
-Miami (OH),Central Michigan,4.18
-Middle Tennessee,Florida Atlantic,2.54
-Milwaukee,Youngstown State,7.03
-Missouri State,Valparaiso,3.09
-Missouri-Kansas City,Chicago State,17.07
-Monmouth,Saint Peter's,1.76
-Montana,Portland State,16.71
-Montana State,Sacramento State,0.83
-Morgan State,Maryland-Eastern Shore,10.83
-Murray State,Eastern Kentucky,16.3
-NJIT,Kennesaw State,14.04
-Nevada-Las Vegas,Wyoming,9.09
-New Mexico,Nevada,-14.23
-New Orleans,Houston Baptist,0.88
-Norfolk State,Delaware State,16.56
-North Carolina Central,Bethune-Cookman,3.73
-North Carolina-Asheville,Winthrop,-12.07
-North Florida,North Alabama,8.04
-North Texas,Southern Mississippi,7.57
-Northern Colorado,Idaho,12.28
-Northern Iowa,Southern Illinois,-0.75
-Northwestern State,McNeese State,-4.63
-Notre Dame,Syracuse,0.56
-Oakland,Wright State,-0.12
-Ohio,Northern Illinois,2.78
-Ohio State,Michigan State,-2.88
-Oklahoma,Oklahoma State,12.38
-Old Dominion,Western Kentucky,5.37
-Oral Roberts,Western Illinois,2.35
-Oregon,Oregon State,7.08
-Pepperdine,San Francisco,-7.84
-Pittsburgh,North Carolina,-9.6
-Presbyterian,South Carolina Upstate,9.65
-Princeton,Pennsylvania,-3.23
-Providence,Villanova,-2.78
-Radford,Longwood,12.68
-Rice,Louisiana Tech,-6.88
-Rider,Quinnipiac,9.77
-Robert Morris,Mount St. Mary's,6.44
-Rutgers,Maryland,-3.16
-Sacred Heart,Central Connecticut State,4.8
-Saint Francis (PA),Fairleigh Dickinson,5.2
-Saint Mary's (CA),Brigham Young,7.85
-Sam Houston State,Abilene Christian,-0.15
-San Diego,Pacific,8.38
-Siena,Canisius,-1.37
-South Alabama,Coastal Carolina,-0.02
-South Carolina State,North Carolina A&T,-0.58
-Southeast Missouri State,Tennessee-Martin,5.48
-Southeastern Louisiana,Central Arkansas,1.33
-Southern,Prairie View,-1.37
-Tennessee,Georgia,14.45
-Tennessee State,Jacksonville State,-9.4
-Texas,West Virginia,6.42
-Texas A&M,Arkansas,-0.94
-Texas Christian,Baylor,9.4
-Texas State,Georgia State,2.43
-Texas Tech,Kansas State,9.71
-Texas-Arlington,Georgia Southern,-2.68
-Texas-El Paso,Texas-San Antonio,-1.72
-Towson,North Carolina-Wilmington,3.09
-Troy,Appalachian State,5.04
-Tulsa,South Florida,6.97
-UCLA,University of California,14.68
-Utah State,Air Force,17.45
-Vanderbilt,Mississippi,2.47
-Virginia,Florida State,10.38
-Virginia Military Institute,North Carolina-Greensboro,-13.68
-Virginia Tech,Boston College,17.36
-Wagner,St. Francis (NY),8.19
-Washington,Washington State,13.46
-Weber State,Southern Utah,12.26
-Western Carolina,Samford,-7.18
-Wofford,Mercer,14.5
+Colgate,American,5.59
+Dayton,Richmond,9.89
+DePaul,Seton Hall,-0.72
+George Mason,St. Bonaventure,4.47
+Houston,Memphis,8.63
+Iowa,Nebraska,-2.23
+Lehigh,Loyola (MD),11.73
+Louisville,Miami (FL),7.32
+Marquette,Xavier,8.05
+Michigan,Indiana,6.99
+Navy,Holy Cross,-4.37
+Northwestern,Illinois,8.58
+Penn State,Wisconsin,-0.45
+Saint Joseph's,George Washington,11.25
+Saint Louis,Rhode Island,3.05
+South Dakota,South Dakota State,-5.67
+Southern California,Stanford,6.89
+Wichita State,Temple,0.64
