@@ -219,7 +219,7 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
   </tbody>
 </table>
 <br><br>
- Although no individual model predicts the point spread as well as the line, we might ask whether any linear combination of models can do so. Let's regress the observed margins of victory onto the predictions of each model, but constrain the regression to have nonnegative coefficients. Subject to the nonnegativity constraint, this would give the optimal (backward-looking) mixture of predictors. We find: 
+ Although no individual model predicts the point spread as well as the line, we might ask whether any linear combination of models can do so. Let's regress the observed margins of victory onto the predictions of each model, but constrain the regression to have nonnegative coefficients. This would give the optimal (backward-looking) mixture of predictors. We find: 
 <br>
 <table border="1" class="dataframe">
   <thead>
@@ -357,6 +357,6 @@ Out of curiosity, what if we included the line itself in the above regression? C
   </tbody>
 </table> 
 <br>
-Interestingly, it seems that a couple of the models do perhaps capture something the line does not. The hypothetical MSE of this mixture would be 122.698. 
+It seems that a couple of the models are able to add value to the line. The hypothetical MSE of this mixture would be 122.698. 
 <br><br>
 At some point I will make my analysis available as a Jupyter notebook.
