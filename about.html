@@ -6,7 +6,7 @@ A large number of people have developed models for predicting the outcomes of co
 <br><br>
 Throughout the 2018-19 season, I'll try to update this page with some further analysis of the Tracker data. For what follows, I chose a subset of models which have made picks since the very beginning of the season, and I threw out games for which any of those models did not make a pick. In a (somewhat lazy) attempt to address misprinted lines, I filtered out any games for which the opening and closing lines differed by more than 5 points (it's very rare that this really happens). 
 <br><br>
-Results are shown as of 2019-02-24 for a set of 4369 games: 
+Results are shown as of 2019-02-26 for a set of 4389 games: 
 <br>
 <table border="1" class="dataframe">
   <thead>
@@ -17,63 +17,63 @@ Results are shown as of 2019-02-24 for a set of 4369 games:
   </thead>
   <tbody>
     <tr align="center">
-      <td>122.906</td>
+      <td>123.087</td>
       <td>Line</td>
     </tr>
     <tr align="center">
-      <td>124.104</td>
+      <td>124.270</td>
       <td>Opening Line</td>
     </tr>
     <tr align="center">
-      <td>124.565</td>
+      <td>124.730</td>
       <td>Erik Forseth</td>
     </tr>
     <tr align="center">
-      <td>125.096</td>
+      <td>125.227</td>
       <td>TeamRankings</td>
     </tr>
     <tr align="center">
-      <td>126.404</td>
+      <td>126.620</td>
       <td>Dokter Entropy</td>
     </tr>
     <tr align="center">
-      <td>128.587</td>
+      <td>128.705</td>
       <td>Sagarin Rating</td>
     </tr>
     <tr align="center">
-      <td>128.943</td>
+      <td>129.059</td>
       <td>Sagarin Predictor</td>
     </tr>
     <tr align="center">
-      <td>129.453</td>
+      <td>129.569</td>
       <td>Sagarin Golden Mean</td>
     </tr>
     <tr align="center">
-      <td>130.261</td>
+      <td>130.318</td>
       <td>ESPN BPI</td>
     </tr>
     <tr align="center">
-      <td>130.550</td>
+      <td>130.682</td>
       <td>Kenneth Massey</td>
     </tr>
     <tr align="center">
-      <td>133.014</td>
+      <td>133.133</td>
       <td>DRatings.com</td>
     </tr>
     <tr align="center">
-      <td>133.400</td>
+      <td>133.520</td>
       <td>Sonny Moore</td>
     </tr>
     <tr align="center">
-      <td>137.563</td>
+      <td>137.686</td>
       <td>StatFox</td>
     </tr>
     <tr align="center">
-      <td>138.438</td>
+      <td>138.530</td>
       <td>ComPughter Ratings</td>
     </tr>
     <tr align="center">
-      <td>144.507</td>
+      <td>144.724</td>
       <td>Sagarin Recent</td>
     </tr>
   </tbody>
@@ -116,7 +116,7 @@ Results are shown as of 2019-02-24 for a set of 4369 games:
       <td>Sagarin Rating</td>
     </tr>
     <tr align="center">
-      <td>0.735</td>
+      <td>0.734</td>
       <td>Dokter Entropy</td>
     </tr>
     <tr align="center">
@@ -161,31 +161,31 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
   </thead>
   <tbody>
     <tr align="center">
-      <td>0.518</td>
+      <td>0.519</td>
       <td>ESPN BPI</td>
     </tr>
     <tr align="center">
-      <td>0.510</td>
+      <td>0.509</td>
       <td>Sagarin Golden Mean</td>
     </tr>
     <tr align="center">
-      <td>0.506</td>
+      <td>0.505</td>
       <td>Sagarin Rating</td>
-    </tr>
-    <tr align="center">
-      <td>0.506</td>
-      <td>Dokter Entropy</td>
     </tr>
     <tr align="center">
       <td>0.505</td>
       <td>Sonny Moore</td>
     </tr>
     <tr align="center">
+      <td>0.505</td>
+      <td>Dokter Entropy</td>
+    </tr>
+    <tr align="center">
       <td>0.503</td>
       <td>TeamRankings</td>
     </tr>
     <tr align="center">
-      <td>0.503</td>
+      <td>0.502</td>
       <td>Sagarin Predictor</td>
     </tr>
     <tr align="center">
@@ -193,20 +193,20 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
       <td>Erik Forseth</td>
     </tr>
     <tr align="center">
+      <td>0.498</td>
+      <td>StatFox</td>
+    </tr>
+    <tr align="center">
       <td>0.497</td>
       <td>Kenneth Massey</td>
     </tr>
     <tr align="center">
-      <td>0.497</td>
-      <td>StatFox</td>
-    </tr>
-    <tr align="center">
-      <td>0.496</td>
-      <td>DRatings.com</td>
+      <td>0.495</td>
+      <td>Opening Line</td>
     </tr>
     <tr align="center">
       <td>0.495</td>
-      <td>Opening Line</td>
+      <td>DRatings.com</td>
     </tr>
     <tr align="center">
       <td>0.492</td>
@@ -230,15 +230,15 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
   </thead>
   <tbody>
     <tr align="center">
-      <td>0.446</td>
+      <td>0.445</td>
       <td>Erik Forseth</td>
     </tr>
     <tr align="center">
-      <td>0.283</td>
+      <td>0.275</td>
       <td>Dokter Entropy</td>
     </tr>
     <tr align="center">
-      <td>0.199</td>
+      <td>0.205</td>
       <td>ESPN BPI</td>
     </tr>
     <tr align="center">
@@ -246,12 +246,12 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
       <td>Sonny Moore</td>
     </tr>
     <tr align="center">
-      <td>0.013</td>
-      <td>StatFox</td>
+      <td>0.015</td>
+      <td>Sagarin Golden Mean</td>
     </tr>
     <tr align="center">
-      <td>0.010</td>
-      <td>Sagarin Golden Mean</td>
+      <td>0.012</td>
+      <td>StatFox</td>
     </tr>
     <tr align="center">
       <td>0.000</td>
@@ -284,7 +284,7 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
   </tbody>
 </table> 
 <br>
-The MSE of this hypothetical predictor would be 123.464. Note that this is optimistic, since in addition to being backward-looking, we both fit the model and then computed the MSE using the full dataset. 
+The MSE of this hypothetical predictor would be 123.624. Note that this is optimistic, since in addition to being backward-looking, we both fit the model and then computed the MSE using the full dataset. 
 <br><br>
 Out of curiosity, what if we included the line itself in the above regression? Can any of our models add value when combined with the line?<table border="1" class="dataframe">
   <thead>
@@ -295,23 +295,23 @@ Out of curiosity, what if we included the line itself in the above regression? C
   </thead>
   <tbody>
     <tr align="center">
-      <td>0.662</td>
+      <td>0.661</td>
       <td>Line</td>
     </tr>
     <tr align="center">
-      <td>0.137</td>
+      <td>0.138</td>
       <td>Erik Forseth</td>
     </tr>
     <tr align="center">
-      <td>0.129</td>
+      <td>0.135</td>
       <td>ESPN BPI</td>
     </tr>
     <tr align="center">
-      <td>0.086</td>
+      <td>0.079</td>
       <td>Dokter Entropy</td>
     </tr>
     <tr align="center">
-      <td>0.015</td>
+      <td>0.016</td>
       <td>Sonny Moore</td>
     </tr>
     <tr align="center">
@@ -357,4 +357,4 @@ Out of curiosity, what if we included the line itself in the above regression? C
   </tbody>
 </table> 
 <br>
-It seems that a few of the models are able to add (marginal) value to the line. The hypothetical MSE of this mixture would be 122.435.
+It seems that a few of the models are able to add (marginal) value to the line. The hypothetical MSE of this mixture would be 122.599.
