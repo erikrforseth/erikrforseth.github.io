@@ -2,79 +2,77 @@
 layout: default
 title: About this model.
 ---
-A large number of people have developed models for predicting the outcomes of college basketball games. For those that have made their picks publicly available, <a href="http://www.thepredictiontracker.com/basketball.php">ThePredictionTracker</a> does a great service by tracking the live performance of each model over the course of the season. Unfortunately, it's difficult to do a direct comparison of models using the summary page on the Tracker. For one thing, each model has predicted a different subset of games (in many cases this is accidental -- schedules get modified and web scrapers don't pick up the changes -- but some models don't start making picks altogether until weeks or months into the season). Further, there are a few misprinted lines in the Tracker data. For example, the Tracker shows an opening line of -22 and a closing line of +64.5 for UCLA vs. Presbyterian on 11/19/2019 (the line closed at -23 or -23.5 depending on the book). 
+A large number of people have developed models for predicting the outcomes of college basketball games. For those that have made their picks publicly available, <a href="http://www.thepredictiontracker.com/basketball.php">ThePredictionTracker</a> does a great service by tracking the live performance of each model over the course of the season. Unfortunately, it's difficult to do a direct comparison of models using the summary page on the Tracker, in part because each model has predicted a different subset of games (in many cases this is accidental -- schedules get modified and web scrapers don't pick up the changes -- but some models don't start making picks altogether until weeks or months into the season). Throughout the season, I'll try to update this page with some further analysis of the Tracker data. For what follows, I chose a subset of models which have made picks since the very beginning of the season, and I threw out games for which any of those models did not make a pick. In a (somewhat lazy) attempt to address misprinted lines, I filtered out any games for which the opening and closing lines differed by more than 5 points (it's very rare that this really happens). 
 <br><br>
-Throughout the 2018-19 season, I'll try to update this page with some further analysis of the Tracker data. For what follows, I chose a subset of models which have made picks since the very beginning of the season, and I threw out games for which any of those models did not make a pick. In a (somewhat lazy) attempt to address misprinted lines, I filtered out any games for which the opening and closing lines differed by more than 5 points (it's very rare that this really happens). 
-<br><br>
-Results are shown as of 2019-03-13 for a set of 4876 games: 
+Results are shown as of 2019-11-24 for a set of 295 games: 
 <br>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
-      <th>Mean Squared Error (MSE)</th>
       <th>Model</th>
+      <th>Mean Squared Error (MSE)</th>
     </tr>
   </thead>
   <tbody>
     <tr align="center">
-      <td>123.717</td>
       <td>Line</td>
+      <td>129.663</td>
     </tr>
     <tr align="center">
-      <td>125.066</td>
-      <td>Opening Line</td>
-    </tr>
-    <tr align="center">
-      <td>125.447</td>
       <td>Erik Forseth</td>
+      <td>130.051</td>
     </tr>
     <tr align="center">
-      <td>126.209</td>
-      <td>TeamRankings</td>
+      <td>Opening Line</td>
+      <td>131.389</td>
     </tr>
     <tr align="center">
-      <td>127.318</td>
-      <td>Dokter Entropy</td>
-    </tr>
-    <tr align="center">
-      <td>129.065</td>
-      <td>Sagarin Rating</td>
-    </tr>
-    <tr align="center">
-      <td>129.450</td>
-      <td>Sagarin Predictor</td>
-    </tr>
-    <tr align="center">
-      <td>129.745</td>
       <td>Sagarin Golden Mean</td>
+      <td>133.248</td>
     </tr>
     <tr align="center">
-      <td>131.098</td>
-      <td>Kenneth Massey</td>
+      <td>Sagarin Rating</td>
+      <td>133.815</td>
     </tr>
     <tr align="center">
-      <td>131.895</td>
-      <td>ESPN BPI</td>
+      <td>TeamRankings</td>
+      <td>134.069</td>
     </tr>
     <tr align="center">
-      <td>133.166</td>
-      <td>DRatings.com</td>
+      <td>Sagarin Predictor</td>
+      <td>134.705</td>
     </tr>
     <tr align="center">
-      <td>134.225</td>
+      <td>Dokter Entropy</td>
+      <td>136.122</td>
+    </tr>
+    <tr align="center">
       <td>Sonny Moore</td>
+      <td>144.784</td>
     </tr>
     <tr align="center">
-      <td>138.077</td>
-      <td>StatFox</td>
-    </tr>
-    <tr align="center">
-      <td>138.136</td>
-      <td>ComPughter Ratings</td>
-    </tr>
-    <tr align="center">
-      <td>145.951</td>
       <td>Sagarin Recent</td>
+      <td>145.427</td>
+    </tr>
+    <tr align="center">
+      <td>ESPN BPI</td>
+      <td>146.457</td>
+    </tr>
+    <tr align="center">
+      <td>Kenneth Massey</td>
+      <td>148.474</td>
+    </tr>
+    <tr align="center">
+      <td>DRatings.com</td>
+      <td>149.640</td>
+    </tr>
+    <tr align="center">
+      <td>StatFox</td>
+      <td>150.218</td>
+    </tr>
+    <tr align="center">
+      <td>ComPughter Ratings</td>
+      <td>162.201</td>
     </tr>
   </tbody>
 </table>
@@ -82,70 +80,70 @@ Results are shown as of 2019-03-13 for a set of 4876 games:
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
-      <th>Binary Straight Up (%)</th>
       <th>Model</th>
+      <th>Binary Straight Up (%)</th>
     </tr>
   </thead>
   <tbody>
     <tr align="center">
-      <td>74.17</td>
-      <td>Opening Line</td>
-    </tr>
-    <tr align="center">
-      <td>74.15</td>
-      <td>Erik Forseth</td>
-    </tr>
-    <tr align="center">
-      <td>73.97</td>
-      <td>Line</td>
-    </tr>
-    <tr align="center">
-      <td>73.67</td>
-      <td>Sagarin Predictor</td>
-    </tr>
-    <tr align="center">
-      <td>73.60</td>
-      <td>TeamRankings</td>
-    </tr>
-    <tr align="center">
-      <td>73.56</td>
-      <td>Sagarin Rating</td>
-    </tr>
-    <tr align="center">
-      <td>73.38</td>
-      <td>Sagarin Golden Mean</td>
-    </tr>
-    <tr align="center">
-      <td>73.35</td>
-      <td>ESPN BPI</td>
-    </tr>
-    <tr align="center">
-      <td>73.28</td>
       <td>Dokter Entropy</td>
+      <td>83.05</td>
     </tr>
     <tr align="center">
-      <td>73.09</td>
-      <td>Kenneth Massey</td>
+      <td>Line</td>
+      <td>82.88</td>
     </tr>
     <tr align="center">
-      <td>72.94</td>
-      <td>DRatings.com</td>
+      <td>Erik Forseth</td>
+      <td>81.53</td>
     </tr>
     <tr align="center">
-      <td>72.62</td>
-      <td>Sonny Moore</td>
+      <td>Opening Line</td>
+      <td>81.19</td>
     </tr>
     <tr align="center">
-      <td>72.55</td>
-      <td>StatFox</td>
+      <td>Sagarin Rating</td>
+      <td>81.02</td>
     </tr>
     <tr align="center">
-      <td>72.55</td>
+      <td>Sagarin Predictor</td>
+      <td>81.02</td>
+    </tr>
+    <tr align="center">
+      <td>Sagarin Golden Mean</td>
+      <td>81.02</td>
+    </tr>
+    <tr align="center">
       <td>ComPughter Ratings</td>
+      <td>80.68</td>
     </tr>
     <tr align="center">
-      <td>71.40</td>
+      <td>ESPN BPI</td>
+      <td>80.34</td>
+    </tr>
+    <tr align="center">
+      <td>TeamRankings</td>
+      <td>80.00</td>
+    </tr>
+    <tr align="center">
       <td>Sagarin Recent</td>
+      <td>79.83</td>
+    </tr>
+    <tr align="center">
+      <td>Kenneth Massey</td>
+      <td>79.32</td>
+    </tr>
+    <tr align="center">
+      <td>StatFox</td>
+      <td>79.32</td>
+    </tr>
+    <tr align="center">
+      <td>DRatings.com</td>
+      <td>78.31</td>
+    </tr>
+    <tr align="center">
+      <td>Sonny Moore</td>
+      <td>77.63</td>
     </tr>
   </tbody>
 </table>
@@ -155,66 +153,66 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
-      <th>Against the Spread (%)</th>
       <th>Model</th>
+      <th>Against the Spread (%)</th>
     </tr>
   </thead>
   <tbody>
     <tr align="center">
-      <td>51.39</td>
-      <td>ESPN BPI</td>
-    </tr>
-    <tr align="center">
-      <td>50.69</td>
-      <td>Sagarin Golden Mean</td>
-    </tr>
-    <tr align="center">
-      <td>50.18</td>
-      <td>Sagarin Rating</td>
-    </tr>
-    <tr align="center">
-      <td>50.11</td>
-      <td>TeamRankings</td>
-    </tr>
-    <tr align="center">
-      <td>50.05</td>
-      <td>Sonny Moore</td>
-    </tr>
-    <tr align="center">
-      <td>49.99</td>
       <td>Erik Forseth</td>
+      <td>54.58</td>
     </tr>
     <tr align="center">
-      <td>49.87</td>
-      <td>Dokter Entropy</td>
-    </tr>
-    <tr align="center">
-      <td>49.85</td>
-      <td>Sagarin Predictor</td>
-    </tr>
-    <tr align="center">
-      <td>49.57</td>
-      <td>StatFox</td>
-    </tr>
-    <tr align="center">
-      <td>49.51</td>
       <td>DRatings.com</td>
+      <td>54.24</td>
     </tr>
     <tr align="center">
-      <td>49.30</td>
-      <td>Kenneth Massey</td>
+      <td>Dokter Entropy</td>
+      <td>53.90</td>
     </tr>
     <tr align="center">
-      <td>49.24</td>
-      <td>Sagarin Recent</td>
-    </tr>
-    <tr align="center">
-      <td>49.16</td>
-      <td>Opening Line</td>
-    </tr>
-    <tr align="center">
-      <td>48.24</td>
       <td>ComPughter Ratings</td>
+      <td>53.73</td>
+    </tr>
+    <tr align="center">
+      <td>Sagarin Recent</td>
+      <td>52.88</td>
+    </tr>
+    <tr align="center">
+      <td>Sonny Moore</td>
+      <td>52.71</td>
+    </tr>
+    <tr align="center">
+      <td>Kenneth Massey</td>
+      <td>52.03</td>
+    </tr>
+    <tr align="center">
+      <td>Opening Line</td>
+      <td>51.53</td>
+    </tr>
+    <tr align="center">
+      <td>Sagarin Predictor</td>
+      <td>51.19</td>
+    </tr>
+    <tr align="center">
+      <td>Sagarin Rating</td>
+      <td>50.51</td>
+    </tr>
+    <tr align="center">
+      <td>TeamRankings</td>
+      <td>50.51</td>
+    </tr>
+    <tr align="center">
+      <td>Sagarin Golden Mean</td>
+      <td>49.66</td>
+    </tr>
+    <tr align="center">
+      <td>StatFox</td>
+      <td>49.15</td>
+    </tr>
+    <tr align="center">
+      <td>ESPN BPI</td>
+      <td>45.93</td>
     </tr>
   </tbody>
 </table>
@@ -224,137 +222,141 @@ Clearly the line is the best statistical predictor of the outcome. Nevertheless,
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
-      <th>Coefficient</th>
       <th>Model</th>
+      <th>Coefficient</th>
     </tr>
   </thead>
   <tbody>
     <tr align="center">
-      <td>0.489</td>
       <td>Erik Forseth</td>
+      <td>0.345</td>
     </tr>
     <tr align="center">
-      <td>0.267</td>
       <td>Dokter Entropy</td>
+      <td>0.336</td>
     </tr>
     <tr align="center">
-      <td>0.168</td>
-      <td>ESPN BPI</td>
-    </tr>
-    <tr align="center">
-      <td>0.045</td>
       <td>Sagarin Golden Mean</td>
+      <td>0.228</td>
     </tr>
     <tr align="center">
-      <td>0.038</td>
       <td>Sonny Moore</td>
+      <td>0.088</td>
     </tr>
     <tr align="center">
-      <td>0.009</td>
-      <td>StatFox</td>
+      <td>ESPN BPI</td>
+      <td>0.069</td>
     </tr>
     <tr align="center">
-      <td>0.000</td>
+      <td>Opening Line</td>
+      <td>0.034</td>
+    </tr>
+    <tr align="center">
       <td>Kenneth Massey</td>
+      <td>0.000</td>
     </tr>
     <tr align="center">
-      <td>0.000</td>
       <td>Sagarin Rating</td>
+      <td>0.000</td>
     </tr>
     <tr align="center">
-      <td>0.000</td>
       <td>TeamRankings</td>
+      <td>0.000</td>
     </tr>
     <tr align="center">
+      <td>StatFox</td>
       <td>0.000</td>
+    </tr>
+    <tr align="center">
       <td>Sagarin Recent</td>
+      <td>0.000</td>
     </tr>
     <tr align="center">
-      <td>0.000</td>
       <td>Sagarin Predictor</td>
+      <td>0.000</td>
     </tr>
     <tr align="center">
-      <td>0.000</td>
       <td>DRatings.com</td>
+      <td>0.000</td>
     </tr>
     <tr align="center">
-      <td>0.000</td>
       <td>ComPughter Ratings</td>
+      <td>0.000</td>
     </tr>
   </tbody>
 </table> 
 <br>
-The MSE of this hypothetical predictor would be 124.59. Note that this is optimistic, since in addition to being backward-looking, we both fit the model and then computed the MSE using the full dataset. 
+The MSE of this hypothetical predictor would be 126.871. Note that this is optimistic, since in addition to being backward-looking, we both fit the model and then computed the MSE using the full dataset. 
 <br><br>
 Out of curiosity, what if we included the line itself in the above regression? Can any of our models add value when combined with the line?<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">
-      <th>Coefficient</th>
       <th>Model</th>
+      <th>Coefficient</th>
     </tr>
   </thead>
   <tbody>
     <tr align="center">
-      <td>0.731</td>
       <td>Line</td>
+      <td>0.291</td>
     </tr>
     <tr align="center">
-      <td>0.146</td>
-      <td>Erik Forseth</td>
-    </tr>
-    <tr align="center">
-      <td>0.100</td>
-      <td>ESPN BPI</td>
-    </tr>
-    <tr align="center">
-      <td>0.054</td>
       <td>Dokter Entropy</td>
+      <td>0.282</td>
     </tr>
     <tr align="center">
-      <td>0.000</td>
-      <td>Opening Line</td>
+      <td>Erik Forseth</td>
+      <td>0.247</td>
     </tr>
     <tr align="center">
-      <td>0.000</td>
-      <td>Kenneth Massey</td>
-    </tr>
-    <tr align="center">
-      <td>0.000</td>
-      <td>Sagarin Rating</td>
-    </tr>
-    <tr align="center">
-      <td>0.000</td>
-      <td>Sonny Moore</td>
-    </tr>
-    <tr align="center">
-      <td>0.000</td>
-      <td>TeamRankings</td>
-    </tr>
-    <tr align="center">
-      <td>0.000</td>
-      <td>StatFox</td>
-    </tr>
-    <tr align="center">
-      <td>0.000</td>
-      <td>Sagarin Recent</td>
-    </tr>
-    <tr align="center">
-      <td>0.000</td>
-      <td>Sagarin Predictor</td>
-    </tr>
-    <tr align="center">
-      <td>0.000</td>
       <td>Sagarin Golden Mean</td>
+      <td>0.167</td>
     </tr>
     <tr align="center">
-      <td>0.000</td>
+      <td>Sonny Moore</td>
+      <td>0.082</td>
+    </tr>
+    <tr align="center">
       <td>DRatings.com</td>
+      <td>0.013</td>
     </tr>
     <tr align="center">
+      <td>ESPN BPI</td>
+      <td>0.008</td>
+    </tr>
+    <tr align="center">
+      <td>Opening Line</td>
       <td>0.000</td>
+    </tr>
+    <tr align="center">
+      <td>Kenneth Massey</td>
+      <td>0.000</td>
+    </tr>
+    <tr align="center">
+      <td>Sagarin Rating</td>
+      <td>0.000</td>
+    </tr>
+    <tr align="center">
+      <td>TeamRankings</td>
+      <td>0.000</td>
+    </tr>
+    <tr align="center">
+      <td>StatFox</td>
+      <td>0.000</td>
+    </tr>
+    <tr align="center">
+      <td>Sagarin Recent</td>
+      <td>0.000</td>
+    </tr>
+    <tr align="center">
+      <td>Sagarin Predictor</td>
+      <td>0.000</td>
+    </tr>
+    <tr align="center">
       <td>ComPughter Ratings</td>
+      <td>0.000</td>
     </tr>
   </tbody>
 </table> 
 <br>
-It seems that a few of the models are able to add (marginal) value to the line. The hypothetical MSE of this mixture would be 123.366.
+It seems that a few of the models are able to add (marginal) value to the line. The hypothetical MSE of this mixture would be 126.591.
