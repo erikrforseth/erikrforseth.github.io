@@ -5,7 +5,7 @@ title: About this model.
 A large number of people have developed models for predicting the point spreads of college basketball games. For those that have made their picks publicly available, <a href="http://www.thepredictiontracker.com/basketball.php">ThePredictionTracker</a> does a great service by tracking the live performance of each model over the course of the season. But, it's difficult to do an apples-to-apples comparison using the the Tracker, since each model has predicted a different subset of games (mostly this is random/accidental, but some models start submitting picks later in the season). Here, I show a subset of models which have made picks since the beginning of the season, and I throw out games for which any of those models did not make a pick. In a (somewhat lazy) attempt to address misprinted lines (which have appeared occasionally), I filtered out any games for which the opening and closing Vegas lines differed by more than 5 points (it's very rare that this really happens). 
 
 <br><br>
-Results are shown as of 2020-01-17 for a set of 1884 games. First, let's look at some statistical benchmarks. Below we show  the mean-squared error (in predicting the margins of victory), the binary accuracy (in predicting the win/loss outcomes), and the average bias of each model: 
+Results are shown as of 2020-01-17 for a set of 1940 games. First, let's look at some statistical benchmarks. Below we show  the mean-squared error (in predicting the margins of victory), the binary accuracy (in predicting the win/loss outcomes), and the average bias of each model: 
 <br>
 <table border="1" class="dataframe">
   <thead>
@@ -17,63 +17,63 @@ Results are shown as of 2020-01-17 for a set of 1884 games. First, let's look at
   <tbody>
     <tr align="center">
       <td>Line</td>
-      <td>137.409</td>
+      <td>137.528</td>
     </tr>
     <tr align="center">
       <td>Opening Line</td>
-      <td>137.969</td>
+      <td>138.064</td>
     </tr>
     <tr align="center">
       <td>Erik Forseth</td>
-      <td>138.098</td>
+      <td>138.149</td>
     </tr>
     <tr align="center">
       <td>TeamRankings</td>
-      <td>140.820</td>
+      <td>141.086</td>
     </tr>
     <tr align="center">
       <td>Sagarin Predictor</td>
-      <td>141.978</td>
+      <td>142.188</td>
     </tr>
     <tr align="center">
       <td>Dokter Entropy</td>
-      <td>142.275</td>
+      <td>142.219</td>
     </tr>
     <tr align="center">
       <td>ESPN BPI</td>
-      <td>142.880</td>
+      <td>142.938</td>
     </tr>
     <tr align="center">
       <td>Sagarin Golden Mean</td>
-      <td>144.502</td>
+      <td>144.768</td>
     </tr>
     <tr align="center">
       <td>Sagarin Rating</td>
-      <td>144.805</td>
+      <td>145.123</td>
     </tr>
     <tr align="center">
       <td>StatFox</td>
-      <td>150.472</td>
+      <td>150.405</td>
     </tr>
     <tr align="center">
       <td>Kenneth Massey</td>
-      <td>152.016</td>
+      <td>152.043</td>
     </tr>
     <tr align="center">
       <td>Sonny Moore</td>
-      <td>153.420</td>
+      <td>153.433</td>
     </tr>
     <tr align="center">
       <td>DRatings.com</td>
-      <td>153.517</td>
+      <td>153.802</td>
     </tr>
     <tr align="center">
       <td>Sagarin Recent</td>
-      <td>157.660</td>
+      <td>158.077</td>
     </tr>
     <tr align="center">
       <td>ComPughter Ratings</td>
-      <td>161.585</td>
+      <td>161.527</td>
     </tr>
   </tbody>
 </table>
@@ -88,31 +88,31 @@ Results are shown as of 2020-01-17 for a set of 1884 games. First, let's look at
   <tbody>
     <tr align="center">
       <td>Line</td>
-      <td>74.58</td>
-    </tr>
-    <tr align="center">
-      <td>Opening Line</td>
-      <td>74.36</td>
+      <td>74.54</td>
     </tr>
     <tr align="center">
       <td>Erik Forseth</td>
-      <td>74.36</td>
+      <td>74.33</td>
+    </tr>
+    <tr align="center">
+      <td>Opening Line</td>
+      <td>74.28</td>
     </tr>
     <tr align="center">
       <td>TeamRankings</td>
-      <td>74.23</td>
+      <td>74.25</td>
     </tr>
     <tr align="center">
       <td>Sagarin Predictor</td>
-      <td>73.99</td>
+      <td>73.97</td>
     </tr>
     <tr align="center">
       <td>ESPN BPI</td>
-      <td>73.86</td>
+      <td>73.89</td>
     </tr>
     <tr align="center">
       <td>Dokter Entropy</td>
-      <td>73.41</td>
+      <td>73.45</td>
     </tr>
     <tr align="center">
       <td>Sagarin Rating</td>
@@ -120,7 +120,7 @@ Results are shown as of 2020-01-17 for a set of 1884 games. First, let's look at
     </tr>
     <tr align="center">
       <td>StatFox</td>
-      <td>73.06</td>
+      <td>73.02</td>
     </tr>
     <tr align="center">
       <td>Sagarin Golden Mean</td>
@@ -128,23 +128,23 @@ Results are shown as of 2020-01-17 for a set of 1884 games. First, let's look at
     </tr>
     <tr align="center">
       <td>ComPughter Ratings</td>
-      <td>72.96</td>
+      <td>72.86</td>
     </tr>
     <tr align="center">
       <td>Kenneth Massey</td>
-      <td>72.66</td>
-    </tr>
-    <tr align="center">
-      <td>Sagarin Recent</td>
-      <td>72.05</td>
+      <td>72.68</td>
     </tr>
     <tr align="center">
       <td>DRatings.com</td>
-      <td>71.95</td>
+      <td>71.98</td>
+    </tr>
+    <tr align="center">
+      <td>Sagarin Recent</td>
+      <td>71.83</td>
     </tr>
     <tr align="center">
       <td>Sonny Moore</td>
-      <td>71.71</td>
+      <td>71.75</td>
     </tr>
   </tbody>
 </table>
@@ -158,64 +158,64 @@ Results are shown as of 2020-01-17 for a set of 1884 games. First, let's look at
   </thead>
   <tbody>
     <tr align="center">
-      <td>StatFox</td>
-      <td>0.041</td>
+      <td>Erik Forseth</td>
+      <td>-0.018</td>
     </tr>
     <tr align="center">
-      <td>Erik Forseth</td>
-      <td>-0.046</td>
+      <td>StatFox</td>
+      <td>0.067</td>
     </tr>
     <tr align="center">
       <td>Opening Line</td>
-      <td>-0.123</td>
+      <td>-0.092</td>
     </tr>
     <tr align="center">
       <td>Sagarin Golden Mean</td>
-      <td>-0.197</td>
-    </tr>
-    <tr align="center">
-      <td>ESPN BPI</td>
-      <td>0.203</td>
+      <td>-0.161</td>
     </tr>
     <tr align="center">
       <td>ComPughter Ratings</td>
-      <td>-0.205</td>
+      <td>-0.184</td>
     </tr>
     <tr align="center">
       <td>Line</td>
-      <td>-0.278</td>
+      <td>-0.252</td>
     </tr>
     <tr align="center">
-      <td>Kenneth Massey</td>
-      <td>0.292</td>
+      <td>ESPN BPI</td>
+      <td>0.252</td>
     </tr>
     <tr align="center">
       <td>Sagarin Predictor</td>
-      <td>-0.309</td>
+      <td>-0.273</td>
+    </tr>
+    <tr align="center">
+      <td>Kenneth Massey</td>
+      <td>0.314</td>
     </tr>
     <tr align="center">
       <td>Sagarin Rating</td>
-      <td>-0.383</td>
+      <td>-0.347</td>
     </tr>
     <tr align="center">
       <td>TeamRankings</td>
-      <td>0.429</td>
+      <td>0.473</td>
     </tr>
     <tr align="center">
       <td>Sagarin Recent</td>
-      <td>-0.619</td>
+      <td>-0.582</td>
     </tr>
     <tr align="center">
       <td>Sonny Moore</td>
-      <td>-0.767</td>
+      <td>-0.745</td>
     </tr>
     <tr align="center">
       <td>DRatings.com</td>
-      <td>-0.980</td>
+      <td>-0.919</td>
     </tr>
     <tr align="center">
       <td>Dokter Entropy</td>
-      <td>-1.233</td>
+      <td>-1.206</td>
     </tr>
   </tbody>
 </table>
@@ -232,59 +232,59 @@ We might also ask how each model would have done betting against the Vegas line,
   <tbody>
     <tr align="center">
       <td>ESPN BPI</td>
-      <td>52.10</td>
-    </tr>
-    <tr align="center">
-      <td>TeamRankings</td>
-      <td>51.25</td>
-    </tr>
-    <tr align="center">
-      <td>ComPughter Ratings</td>
-      <td>51.25</td>
-    </tr>
-    <tr align="center">
-      <td>DRatings.com</td>
-      <td>51.22</td>
+      <td>51.96</td>
     </tr>
     <tr align="center">
       <td>Opening Line</td>
-      <td>51.14</td>
+      <td>51.24</td>
+    </tr>
+    <tr align="center">
+      <td>TeamRankings</td>
+      <td>51.24</td>
     </tr>
     <tr align="center">
       <td>Dokter Entropy</td>
-      <td>50.93</td>
+      <td>51.13</td>
+    </tr>
+    <tr align="center">
+      <td>ComPughter Ratings</td>
+      <td>51.13</td>
+    </tr>
+    <tr align="center">
+      <td>DRatings.com</td>
+      <td>51.03</td>
     </tr>
     <tr align="center">
       <td>StatFox</td>
-      <td>50.90</td>
+      <td>50.80</td>
     </tr>
     <tr align="center">
       <td>Erik Forseth</td>
-      <td>50.50</td>
+      <td>50.67</td>
     </tr>
     <tr align="center">
       <td>Sagarin Golden Mean</td>
-      <td>50.42</td>
+      <td>50.23</td>
     </tr>
     <tr align="center">
       <td>Sagarin Predictor</td>
-      <td>50.16</td>
+      <td>50.08</td>
     </tr>
     <tr align="center">
       <td>Sonny Moore</td>
-      <td>49.79</td>
+      <td>49.66</td>
     </tr>
     <tr align="center">
       <td>Sagarin Rating</td>
-      <td>49.73</td>
+      <td>49.61</td>
     </tr>
     <tr align="center">
       <td>Kenneth Massey</td>
-      <td>49.36</td>
+      <td>49.41</td>
     </tr>
     <tr align="center">
       <td>Sagarin Recent</td>
-      <td>49.07</td>
+      <td>49.02</td>
     </tr>
   </tbody>
 </table>
@@ -301,19 +301,23 @@ We might also ask how each model would have done betting against the Vegas line,
   <tbody>
     <tr align="center">
       <td>Line</td>
-      <td>0.447</td>
+      <td>0.441</td>
     </tr>
     <tr align="center">
       <td>Erik Forseth</td>
-      <td>0.293</td>
+      <td>0.287</td>
     </tr>
     <tr align="center">
       <td>ESPN BPI</td>
-      <td>0.168</td>
+      <td>0.173</td>
     </tr>
     <tr align="center">
       <td>Opening Line</td>
-      <td>0.086</td>
+      <td>0.083</td>
+    </tr>
+    <tr align="center">
+      <td>Dokter Entropy</td>
+      <td>0.016</td>
     </tr>
     <tr align="center">
       <td>Kenneth Massey</td>
@@ -329,10 +333,6 @@ We might also ask how each model would have done betting against the Vegas line,
     </tr>
     <tr align="center">
       <td>TeamRankings</td>
-      <td>0.000</td>
-    </tr>
-    <tr align="center">
-      <td>Dokter Entropy</td>
       <td>0.000</td>
     </tr>
     <tr align="center">
@@ -362,4 +362,4 @@ We might also ask how each model would have done betting against the Vegas line,
   </tbody>
 </table> 
 <br>
-The MSE of this hypothetical predictor would be 136.775. (This is overly optimistic for obvious reasons.)
+The MSE of this hypothetical predictor would be 136.881. (This is overly optimistic for obvious reasons.)
