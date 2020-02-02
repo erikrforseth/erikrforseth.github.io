@@ -289,7 +289,7 @@ We might also ask how each model would have done betting against the Vegas line,
   </tbody>
 </table>
 <br><br>
- Finally, let's regress the observed margins of victory onto the predictions of each model, while constraining the regression to have nonnegative coefficients. This gives the optimal (backward-looking and subject to nonnegativity constraints) mixture of predictors. We find: 
+ Let's regress the observed margins of victory onto the predictions of each model, while constraining the regression to have nonnegative coefficients. This gives the optimal (backward-looking and subject to nonnegativity constraints) mixture of predictors. We find: 
 <br>
 <table border="1" class="dataframe">
   <thead>
@@ -363,3 +363,94 @@ We might also ask how each model would have done betting against the Vegas line,
 </table> 
 <br>
 The MSE of this hypothetical predictor would be 135.944. (This is overly optimistic for obvious reasons.)
+
+<br><br> Finally, we can ignore the other models and look only at games for which I made a pick this year, constituting a sample of 2771 games: 
+<br>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Model</th>
+      <th>Mean Squared Error (MSE)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>Line</td>
+      <td>129.257</td>
+    </tr>
+    <tr align="center">
+      <td>Erik Forseth</td>
+      <td>129.486</td>
+    </tr>
+    <tr align="center">
+      <td>Opening Line</td>
+      <td>129.953</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Model</th>
+      <th>Binary Straight Up (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>Erik Forseth</td>
+      <td>73.40</td>
+    </tr>
+    <tr align="center">
+      <td>Line</td>
+      <td>73.17</td>
+    </tr>
+    <tr align="center">
+      <td>Opening Line</td>
+      <td>72.79</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Model</th>
+      <th>Average Bias</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>Opening Line</td>
+      <td>0.055</td>
+    </tr>
+    <tr align="center">
+      <td>Erik Forseth</td>
+      <td>0.093</td>
+    </tr>
+    <tr align="center">
+      <td>Line</td>
+      <td>-0.112</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Model</th>
+      <th>Against the Spread (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>Erik Forseth</td>
+      <td>51.71</td>
+    </tr>
+    <tr align="center">
+      <td>Opening Line</td>
+      <td>50.79</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
