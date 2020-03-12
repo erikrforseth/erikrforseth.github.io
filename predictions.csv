@@ -7,9 +7,9 @@ Arizona State,Washington State,7.47
 Arkansas,South Carolina,0.94
 Ball State,Kent State,0.29
 Baylor,Kansas State,11.41
-Bethune-Cookman,Morgan State,1.73
+Bethune-Cookman,Morgan State,1.83
 Bowling Green State,Toledo,-1.75
-Butler,Providence,1.72
+Butler,Providence,1.5
 Cal State Bakersfield,Texas-Rio Grande Valley,-0.01
 Cal State Fullerton,Cal State Northridge,-2.18
 Central Florida,South Florida,-0.06
@@ -28,8 +28,8 @@ Florida,Georgia,9.32
 Florida Atlantic,North Texas,-8.91
 George Mason,St. Bonaventure,-4.9
 Grand Canyon,Missouri-Kansas City,-1.1
-Hawaii,UC-Davis,3.23
-Idaho State,Montana,-12.42
+Hawaii,UC-Davis,3.33
+Idaho State,Montana,-12.37
 Indiana,Penn State,-2.76
 Iowa,Minnesota,2.25
 Kansas,Oklahoma State,11.11
@@ -43,7 +43,7 @@ Miami (OH),Northern Illinois,-1.96
 Michigan,Rutgers,2.71
 Missouri,Texas A&M,3.08
 Monmouth,Quinnipiac,4.16
-Montana State,Portland State,-2.93
+Montana State,Portland State,-2.98
 Niagara,Rider,-8.53
 Norfolk State,Coppin State,8.48
 Northern Colorado,Southern Utah,6.33
@@ -55,5 +55,5 @@ Oregon,Oregon State,8.55
 Seattle,Utah Valley,2.85
 Southern Methodist,Temple,3.62
 Texas,Texas Tech,-8.52
-UC-Riverside,UC-Santa Barbara,-4.57
+UC-Riverside,UC-Santa Barbara,-4.52
 UCLA,University of California,8.73
